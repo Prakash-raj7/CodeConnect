@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-color:#ACC8E5;
+
+}
+.container{
+display:flex;
+width:100%;
+height:400px;
+margin-top:13vh;
+justify-content:center;
+}
+p{
+margin:auto 10%;}
+fieldset
+{
+width:90%;
+border-radius:5px;
+}
+
+hr{
+background-color:#4FA095;
+height:5px;
+border:none;
+}
+.pass
+{
+margin-left:12px;
+}
+.matter{
+order:1;
+width:40%;
+}
+.details{
+display:flex;
+order:2;
+padding-top:2vh;
+padding-left:2%;
+}
+
+</style>
+</head>
+<body>
+
+<center><h1>Welcome to CODERS JUNCTION !!!</h1></center>
+<hr width="80%">
+<p>CODERS JUNCTION is a service that connects programmers with buyers that need custom programming done for their websites. Much like an auction, programming projects are posted and interested programmers bid on them.</p>
+<div class="container">
+<div class="matter">
+<fieldset>
+<legend>Buyers:</legend>
+<p>
+Step 1:Signup(FREE).<br>
+Step 2:Post a project(FREE).<br>
+Step 3:Receive bids by interested freelancers.<br>
+Step 4:Choose a bid.s<br>
+</p>
+</fieldset>
+<fieldset>
+<legend align="right">Programmers:</legend>
+<p>
+Step 1:Signup(FREE).<br>
+Step 2:Bid on interested projects.<br>
+Step 3:Your bid is choosen and you complete the work.<br>
+Step 4:Get paid!!<br>
+</p>
+</fieldset>
+</div>
+<div class="details">
+<form  action="./login" method="post">
+Login Here:<br><br>
+<label for="buyer">Buyer</label>
+<input type="radio" name="radio2" value="Buyer"></input>
+<label for="programmer">Programmer</label>
+<input  type="radio" name="radio2" value="Programmer"></input><br><br>
+User-Name:
+<input type="text" name="name1" value=""></input><br><br>
+Password:
+<input type="password" name="password1" value="" class="pass"></input><br><br>
+<input type="submit" name="sub2" value="Login">
+<button type="reset">Reset</button><br><br>
+New ??<a href="register.html">Register</a> here.
+</form>
+</div>
+</div>
+</body>
+</html>

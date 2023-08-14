@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-color:#ACC8E5;
+
+}
+.container
+{
+width:300px;
+height:390px;
+border:1px solid;
+border-color:black;
+position:absolute;
+top:50%;
+left:50%;
+margin-left:-150px;
+margin-top:-195px;
+display:flex;
+justify-content:center;
+padding-top:30px;
+
+}
+.container a{
+margin-left:110px;
+}
+.pass
+{
+margin-left:12px;}
+</style>
+</head>
+<body>
+<div class="container">
+<form action="register" method="post">
+Register :<br><br>
+<label for="buyer">Buyer</label>
+<input type="radio" name="radio2" value="Buyer"></input>
+<label for="programmer">Programmer</label>
+<input  type="radio" name="radio2" value="Programmer"></input><br><br>
+<label>User-Name:</label>
+<input type="text" name="name" value=""></input><br><br>
+<label>Password:</label> 
+<input type="password" name="password" value="" class="pass"></input><br><br>
+<label >Address:</label> 
+<input type="text" name="address" value="" style="margin-left:20px"><br><br>
+<label>Mobile:</label> 
+<input type="text" name="phone" value="" style="margin-left:25px"><br><br>
+<label>E-mail:</label>
+<input type="text" name="email" value="" style="margin-left:28px"><br><br>
+<input type="submit" name="sub" value="Register">
+<button type="reset">Reset</button><br><br>
+<center style="font-size:20px;">OR</center><br>
+<a href="index.html">Login</a>
+
+</form>
+</div>
+</body>
+</html>
